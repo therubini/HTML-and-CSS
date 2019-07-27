@@ -1,0 +1,13 @@
+p {
+	color: black;
+	background-color: red;
+	font-style: italic;
+	font-size: 40px;
+	text-align:center;
+	text-shadow: 2px 2px 8px;/* The text-shadow property adds shadows to text*/
+   }/*this is the link for Basic_CSS_5.html*/
+body {
+			background-color: black;
+		}
+   
+	

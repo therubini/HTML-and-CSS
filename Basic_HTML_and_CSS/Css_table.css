@@ -1,0 +1,19 @@
+table {
+		border: 1px solid red;
+      }	
+td:hover {
+		background-color:yellow;
+		color: darkblue;
+		 }
+tr {
+		font-size: 40px;
+	}
+td {
+		color: red; 
+	}
+h1 {
+		font-size: 70px; color: red;
+	}
+body {
+		background-color:black;
+	}
