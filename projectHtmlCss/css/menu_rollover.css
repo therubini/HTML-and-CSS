@@ -26,6 +26,7 @@ body {
     padding:0;
     list-style: none;
 }
+
 .menu li {
     columns: #b3b3b3;
     display:  inline-block;
@@ -37,8 +38,9 @@ body {
     background-color: #387593;
     cursor: pointer;
 }
+
 .menu li:hover{
-    background-color: #5eafdf;
+    background-color: #dfa75e;
     color:#fff;
 }
 .menu li:hover ul{
