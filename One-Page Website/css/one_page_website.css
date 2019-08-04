@@ -1,0 +1,26 @@
+
+body {
+    font-family: "Times New Roman", Times, sans-serif;
+    font-size: 15px;
+}
+
+header {
+    text-align: center;
+    font-size: 100px;
+}
+
+form {
+    border: 1px solid black;
+    width: 50%;
+    margin: 0px auto;
+    border-radius: 3px;
+    text-align: center;
+}
+
+form font {
+    color: black;
+}
+
+p     { display: table-row;  }
+label { display: table-cell; }
+input { display: table-cell; }
