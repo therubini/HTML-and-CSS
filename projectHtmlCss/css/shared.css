@@ -12,7 +12,7 @@ body {
     font-family: "helvetica neue", Arial, Helvetica, sans-serif;
     line-height: 1.428557143;
     color:#333;
-    background-color: #fff;
+    background-color: rgb(3, 3, 3);
 }
 
 footer,
@@ -219,7 +219,7 @@ Contact STYLES
     width: 70%;
     text-align: center;
     margin: 0 auto;
-    color: #c41c33;
+    color: #fa0c2c;
     font-weight: 500;
     font-size: 1.3em;
     letter-spacing: 0pt;
@@ -230,7 +230,7 @@ Contact STYLES
     width: 70%;
     text-align: center;
     margin: 0 auto;
-    color: #13161b;
+    color: #fff;
     font-weight: 900;
     font-size: 1.5em;
     font-variant: small-caps;
@@ -239,7 +239,7 @@ Contact STYLES
 }
 
 .reservation p {
-    color: #13161b;
+    color: #fff;
     width: 50%;
     text-align: center;
     margin: 0 auto;
@@ -255,7 +255,7 @@ Contact STYLES
     border: 1px solid #808080;
     margin: 24 auto;
     border-radius: 7px;
-    background: rgb(227,222,222);
+    background: rgb(248, 246, 245);
     box-shadow: 2px 3px 3px  0px rgba(0,0,0,0.3);
     font-family: 'raleway', sans-serif;
 }
@@ -264,7 +264,7 @@ Contact STYLES
     font-size: 15px;
     outline: none;
     font-weight: 600;
-    color: #8d8e8f;
+    color: #ffffff;
     padding: 2% 1% 2% 7%;
     width: 80%;
     border-top: 1px solid #090b0d;
@@ -333,8 +333,8 @@ Contact STYLES
 FOOTER STYLES
 -----------------------------------------*/
 #footer {
-    background-color: rgba(100,65,0,.3);
-    color: #000;
+    background-color: rgba(153, 105, 17, 0.3);
+    color: rgb(197, 17, 17);
     text-shadow: 2px 2px 0px 0 (0,0,0,0.4);
     padding: 20px 50px 20px 50px;
     text-align: right;

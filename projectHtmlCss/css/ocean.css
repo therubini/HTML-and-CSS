@@ -1,0 +1,136 @@
+html, body{
+  overflow-x: hidden;
+}
+
+/*customize the nav bar*/
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    z-index: 100;
+}
+
+/*custome the links inside the bar*/
+.navbar a {
+    float: left;
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 20px 20px;
+  }
+
+  /*change background with mouse hover*/
+  .navbar a:hover {
+      background: #474954;
+      color: lightsalmon;
+  }
+  
+  .container {
+    position: relative;
+    width: 100%;
+    height: auto;
+    
+  }
+
+  
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .container:hover .image {
+    opacity: 0.3;
+  }
+  
+  .container:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: rgb(10, 12, 10);
+    color: white;
+    font-size: 50px;
+    padding: 16px 32px;
+  }
+
+  .centered {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -100%);
+  }
+
+  table {
+    width: 50%;
+    border-collapse: collapse;
+    text-align: center;
+    margin: 0% auto;
+    margin-top: 50px;
+  }
+
+  th {
+    background-color: lightgray;
+  }
+  th, td {
+    border: 1px solid black;
+    padding: 5px;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Create two equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 50%;
+    padding: 5px;
+    height: 100px;
+    color: #fff;
+    background-color: #333;
+    margin-top: 13px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  p:hover {
+    color: darkorange;
+  }
+
+  footer {
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    font-size: 1em; 
+    font-weight: bold;
+    text-align: center;
+  }
+
+  
+
+
+  
